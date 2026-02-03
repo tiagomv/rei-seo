@@ -28,7 +28,7 @@ const Results: React.FC = () => {
                 <div className="p-6">
                   <div className="aspect-video rounded-lg overflow-hidden border-2 border-slate-200 mb-4 bg-white">
                     <img
-                      src="antes.png"
+                      src="/antes.png"
                       alt="Tráfego orgânico antes - Novembro 2024"
                       className="w-full h-full object-contain"
                     />
@@ -51,7 +51,7 @@ const Results: React.FC = () => {
                 <div className="p-6">
                   <div className="aspect-video rounded-lg overflow-hidden border-2 border-primary/30 mb-4 bg-white">
                     <img
-                      src="depois.png"
+                      src="/depois.png"
                       alt="Tráfego orgânico depois - Abril 2025"
                       className="w-full h-full object-contain"
                     />
