@@ -5,6 +5,7 @@ import Stats from './components/Stats';
 import Services from './components/Services';
 import Results from './components/Results';
 import Pricing from './components/Pricing';
+import FAQ from './components/FAQ';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <Services />
         <Results />
         <Pricing />
+        <FAQ />
         <CallToAction />
       </main>
       <Footer />
