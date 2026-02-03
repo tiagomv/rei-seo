@@ -1,85 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rei SEO - Agência de SEO e Marketing Digital | Domine o Google</title>
-    <meta name="description" content="Especialistas em SEO técnico e estratégico. Aumente seu tráfego orgânico, apareça na primeira página do Google e gere mais vendas com a Rei SEO.">
-    <meta name="keywords" content="SEO, agência de SEO, consultoria SEO, link building, SEO técnico, marketing digital">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Rei SEO - Domine o Google">
-    <meta property="og:description" content="Transforme a busca orgânica em seu melhor canal de vendas">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://reiseo.com.br">
-    <meta name="theme-color" content="#2563EB">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-              heading: ['Poppins', 'sans-serif'],
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rei SEO - Agência de SEO e Marketing Digital | Domine o Google</title>
+  <meta name="description"
+    content="Especialistas em SEO técnico e estratégico. Aumente seu tráfego orgânico, apareça na primeira página do Google e gere mais vendas com a Rei SEO.">
+  <meta name="keywords"
+    content="SEO, agência de SEO, consultoria SEO, link building, SEO técnico, marketing digital, otimização de sites, ranqueamento Google">
+
+  <!-- SEO Meta Tags -->
+  <link rel="canonical" href="https://rei-seo-pro.vercel.app" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="author" content="Rei SEO" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rei-seo-pro.vercel.app">
+  <meta property="og:title" content="Rei SEO - Domine o Google">
+  <meta property="og:description"
+    content="Transforme a busca orgânica em seu melhor canal de vendas. Especialistas em SEO técnico e estratégico.">
+  <meta property="og:image" content="https://rei-seo-pro.vercel.app/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Rei SEO">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://rei-seo-pro.vercel.app">
+  <meta name="twitter:title" content="Rei SEO - Domine o Google">
+  <meta name="twitter:description"
+    content="Transforme a busca orgânica em seu melhor canal de vendas. Especialistas em SEO técnico e estratégico.">
+  <meta name="twitter:image" content="https://rei-seo-pro.vercel.app/og-image.jpg">
+
+  <!-- Theme & Mobile -->
+  <meta name="theme-color" content="#2563EB">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Rei SEO">
+
+  <!-- DNS Prefetch & Preconnect -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Poppins', 'sans-serif'],
+          },
+          colors: {
+            primary: {
+              DEFAULT: '#2563EB', // Royal Blue
+              dark: '#1D4ED8',
+              light: '#60A5FA',
             },
-            colors: {
-              primary: {
-                DEFAULT: '#2563EB', // Royal Blue
-                dark: '#1D4ED8',
-                light: '#60A5FA',
-              },
-              secondary: '#0F172A', // Dark Slate
-              neutral: {
-                100: '#F1F5F9',
-                200: '#E2E8F0',
-              }
+            secondary: '#0F172A', // Dark Slate
+            neutral: {
+              100: '#F1F5F9',
+              200: '#E2E8F0',
+            }
+          },
+          animation: {
+            'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+            'blob': 'blob 7s infinite',
+          },
+          keyframes: {
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
             },
-            animation: {
-              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
-              'blob': 'blob 7s infinite',
-            },
-            keyframes: {
-              fadeInUp: {
-                '0%': { opacity: '0', transform: 'translateY(20px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              },
-              blob: {
-                '0%': { transform: 'translate(0px, 0px) scale(1)' },
-                '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
-                '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
-                '100%': { transform: 'translate(0px, 0px) scale(1)' },
-              }
+            blob: {
+              '0%': { transform: 'translate(0px, 0px) scale(1)' },
+              '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+              '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+              '100%': { transform: 'translate(0px, 0px) scale(1)' },
             }
           }
         }
       }
-    </script>
-    <style>
-      /* Custom Scrollbar */
-      ::-webkit-scrollbar {
-        width: 10px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #f1f1f1;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
-        border-radius: 5px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #94a3b8;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
+    }
+  </script>
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -90,10 +135,123 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://rei-seo-pro.vercel.app/#organization",
+        "name": "Rei SEO",
+        "url": "https://rei-seo-pro.vercel.app",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://rei-seo-pro.vercel.app/logo.png"
+        },
+        "description": "Especialistas em SEO técnico e estratégico. Transformamos códigos e conteúdos em resultados de negócio.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Brasília",
+          "addressRegion": "DF",
+          "addressCountry": "BR"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+55-61-99554-4295",
+          "contactType": "customer service",
+          "availableLanguage": "Portuguese"
+        },
+        "sameAs": [
+          "https://www.instagram.com/reiseo",
+          "https://www.linkedin.com/company/reiseo"
+        ]
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://rei-seo-pro.vercel.app/#localbusiness",
+        "name": "Rei SEO",
+        "image": "https://rei-seo-pro.vercel.app/logo.png",
+        "priceRange": "R$800 - R$2500",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Brasília",
+          "addressRegion": "DF",
+          "addressCountry": "BR"
+        },
+        "url": "https://rei-seo-pro.vercel.app",
+        "telephone": "+55-61-99554-4295"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://rei-seo-pro.vercel.app/#service",
+        "serviceType": "SEO e Marketing Digital",
+        "provider": {
+          "@id": "https://rei-seo-pro.vercel.app/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Brasil"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Serviços de SEO",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Plano START - Faxina Técnica",
+                "description": "Auditoria técnica completa e otimização de Core Web Vitals"
+              },
+              "price": "800",
+              "priceCurrency": "BRL"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Plano PLUS - Tração",
+                "description": "Manutenção técnica contínua e criação de conteúdo otimizado"
+              },
+              "price": "1500",
+              "priceCurrency": "BRL"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Plano PRO - Liderança",
+                "description": "Estratégia de conteúdo avançada e consultoria dedicada"
+              },
+              "price": "2500",
+              "priceCurrency": "BRL"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://rei-seo-pro.vercel.app/#website",
+        "url": "https://rei-seo-pro.vercel.app",
+        "name": "Rei SEO",
+        "description": "Domine o Google com a Rei SEO",
+        "publisher": {
+          "@id": "https://rei-seo-pro.vercel.app/#organization"
+        },
+        "inLanguage": "pt-BR"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body>
-    <div id="root"></div>
+
+<body>
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
