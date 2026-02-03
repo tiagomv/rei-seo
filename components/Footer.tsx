@@ -5,8 +5,8 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-secondary text-slate-300 pt-16 pb-8">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
-          
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+
           {/* Brand Column */}
           <div className="flex flex-col items-start">
             <div className="flex items-center gap-2 mb-4">
@@ -31,25 +31,6 @@ const Footer: React.FC = () => {
               <li><a href="#planos" className="hover:text-primary transition-colors text-sm">Planos e Preços</a></li>
               <li><a href="#resultados" className="hover:text-primary transition-colors text-sm">Resultados</a></li>
               <li><a href="#" className="hover:text-primary transition-colors text-sm">Blog</a></li>
-            </ul>
-          </div>
-
-          {/* Contact Column */}
-          <div>
-            <h3 className="text-white font-bold mb-6">Contato</h3>
-            <ul className="space-y-3 text-sm">
-              <li className="flex gap-2">
-                <span className="text-slate-500">WhatsApp:</span>
-                <a href="https://wa.me/5561995544295" className="hover:text-primary transition-colors">(61) 99554-4295</a>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-slate-500">Email:</span>
-                <a href="mailto:contato@reiseo.com.br" className="hover:text-primary transition-colors">contato@reiseo.com.br</a>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-slate-500">Local:</span>
-                <span>Brasília, DF</span>
-              </li>
             </ul>
           </div>
         </div>
