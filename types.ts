@@ -22,7 +22,7 @@ export interface PlanItem {
   icon: LucideIcon;
   features: string[];
   isPopular?: boolean;
-  linkMessage: string;
+  checkoutUrl: string;
 }
 
 export interface BeforeAfterImage {

@@ -17,7 +17,7 @@ const plans: PlanItem[] = [
       "Otimização de títulos e meta tags",
       "Relatório detalhado de melhorias"
     ],
-    linkMessage: "Olá! Tenho interesse no Plano START",
+    checkoutUrl: "https://mpago.li/1furv52",
   },
   {
     name: "PLUS",
@@ -34,7 +34,7 @@ const plans: PlanItem[] = [
       "Monitoramento de performance",
       "Relatório mensal detalhado"
     ],
-    linkMessage: "Olá! Tenho interesse no Plano PLUS",
+    checkoutUrl: "https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=3432abd8884f41e7a628fc96254415df",
   },
   {
     name: "PRO",
@@ -50,7 +50,7 @@ const plans: PlanItem[] = [
       "Consultoria mensal dedicada (1h)",
       "Análise de concorrência trimestral"
     ],
-    linkMessage: "Olá! Tenho interesse no Plano PRO",
+    checkoutUrl: "https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=126f2abbf67843098ccda260302069a6",
   }
 ];
 
@@ -72,12 +72,11 @@ const Pricing: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto items-start">
           {plans.map((plan, index) => (
             <FadeIn key={index} delay={index * 150} className="h-full">
-              <div 
-                className={`relative bg-white rounded-2xl p-8 h-full flex flex-col transition-all duration-300 ${
-                  plan.isPopular 
-                    ? 'shadow-2xl border-2 border-primary scale-105 z-10' 
+              <div
+                className={`relative bg-white rounded-2xl p-8 h-full flex flex-col transition-all duration-300 ${plan.isPopular
+                    ? 'shadow-2xl border-2 border-primary scale-105 z-10'
                     : 'shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-1'
-                }`}
+                  }`}
               >
                 {plan.isPopular && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold uppercase tracking-wider px-4 py-1.5 rounded-full shadow-md">
@@ -110,14 +109,13 @@ const Pricing: React.FC = () => {
                 </ul>
 
                 <a
-                  href={`https://wa.me/5561995544295?text=${encodeURIComponent(plan.linkMessage)}`}
+                  href={plan.checkoutUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`w-full py-3 rounded-xl font-semibold text-center transition-all ${
-                    plan.isPopular
+                  className={`w-full py-3 rounded-xl font-semibold text-center transition-all ${plan.isPopular
                       ? 'bg-primary hover:bg-primary-dark text-white shadow-lg hover:shadow-primary/30'
                       : 'border border-slate-200 text-secondary hover:border-primary hover:text-primary'
-                  }`}
+                    }`}
                 >
                   Contratar {plan.name}
                 </a>
