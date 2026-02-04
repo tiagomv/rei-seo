@@ -3,8 +3,11 @@ import AnimatedCounter from './ui/AnimatedCounter';
 import FadeIn from './ui/FadeIn';
 
 const Stats: React.FC = () => {
+  const currentYear = new Date().getFullYear();
+  const yearsOfExperience = currentYear - 2017;
+
   const stats = [
-    { label: "Atuando com desenvolvimento web", end: 2017, prefix: "Desde ", suffix: "", disableFormatting: true },
+    { label: "Atuando com desenvolvimento web", end: yearsOfExperience, prefix: "+", suffix: " anos", disableFormatting: true },
     { label: "Linhas de código otimizadas", end: 15000, prefix: "+", suffix: "" },
     { label: "Média de ganho em velocidade mobile", end: 300, prefix: "+", suffix: "%" },
   ];
