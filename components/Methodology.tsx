@@ -69,7 +69,7 @@ const Methodology: React.FC = () => {
                     <div className="mt-12 max-w-3xl mx-auto">
                         <div className="bg-gradient-to-r from-primary/5 to-primary/10 rounded-2xl p-8 border border-primary/20">
                             <p className="text-center text-slate-700 leading-relaxed">
-                                <span className="font-bold text-secondary">Não fazemos promessas vazias.</span> Nosso trabalho é baseado em técnicas comprovadas, transparência total e foco em resultados reais. O SEO leva tempo, mas quando bem feito, os resultados são duradouros e escaláveis.
+                                <span className="font-bold text-secondary">Não fazemos promessas vazias.</span> Nosso trabalho é baseado em técnicas comprovadas, transparência total e foco em resultados reais.
                             </p>
                         </div>
                     </div>
