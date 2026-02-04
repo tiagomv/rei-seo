@@ -4,7 +4,7 @@ import FadeIn from './ui/FadeIn';
 
 const Stats: React.FC = () => {
   const stats = [
-    { label: "Atuando com desenvolvimento web", end: 2017, prefix: "Desde ", suffix: "" },
+    { label: "Atuando com desenvolvimento web", end: 2017, prefix: "Desde ", suffix: "", disableFormatting: true },
     { label: "Linhas de código otimizadas", end: 15000, prefix: "+", suffix: "" },
     { label: "Média de ganho em velocidade mobile", end: 300, prefix: "+", suffix: "%" },
   ];
@@ -16,11 +16,12 @@ const Stats: React.FC = () => {
           {stats.map((stat, index) => (
             <FadeIn key={index} delay={index * 150} className="p-4">
               <div className="flex flex-col items-center">
-                <AnimatedCounter 
-                  end={stat.end} 
-                  prefix={stat.prefix} 
-                  suffix={stat.suffix} 
-                  duration={2500} 
+                <AnimatedCounter
+                  end={stat.end}
+                  prefix={stat.prefix}
+                  suffix={stat.suffix}
+                  duration={2500}
+                  disableFormatting={stat.disableFormatting}
                 />
                 <p className="mt-2 text-slate-500 font-medium text-lg max-w-xs">
                   {stat.label}

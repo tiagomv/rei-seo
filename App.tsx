@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Stats from './components/Stats';
 import Services from './components/Services';
 import Results from './components/Results';
+import Methodology from './components/Methodology';
 import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
 import CallToAction from './components/CallToAction';
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <Stats />
         <Services />
         <Results />
+        <Methodology />
         <Pricing />
         <FAQ />
         <CallToAction />

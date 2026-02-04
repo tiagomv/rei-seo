@@ -5,9 +5,10 @@ interface AnimatedCounterProps {
   duration?: number;
   prefix?: string;
   suffix?: string;
+  disableFormatting?: boolean;
 }
 
-const AnimatedCounter: React.FC<AnimatedCounterProps> = ({ end, duration = 2000, prefix = '', suffix = '' }) => {
+const AnimatedCounter: React.FC<AnimatedCounterProps> = ({ end, duration = 2000, prefix = '', suffix = '', disableFormatting = false }) => {
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
   const [hasAnimated, setHasAnimated] = useState(false);
@@ -51,7 +52,7 @@ const AnimatedCounter: React.FC<AnimatedCounterProps> = ({ end, duration = 2000,
 
   return (
     <span ref={ref} className="font-bold text-5xl md:text-6xl text-primary font-heading">
-      {prefix}{count.toLocaleString()}{suffix}
+      {prefix}{disableFormatting ? count : count.toLocaleString()}{suffix}
     </span>
   );
 };

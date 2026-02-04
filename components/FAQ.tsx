@@ -10,7 +10,7 @@ interface FAQItem {
 const faqs: FAQItem[] = [
     {
         question: "Quanto tempo leva para ver resultados com SEO?",
-        answer: "Os primeiros resultados começam a aparecer entre 2 a 4 meses, mas é aos 6 meses que o site realmente começa a mostrar o fruto do trabalho de SEO. Isso porque o Google precisa de tempo para rastrear, indexar e avaliar as melhorias feitas. SEO é um investimento de médio a longo prazo, mas os resultados são duradouros e escaláveis."
+        answer: "Os primeiros resultados de SEO costumam aparecer entre 60 e 90 dias, com aumento de impressões, cliques e melhora gradual no posicionamento. Esse prazo é necessário para que o Google rastreie, indexe e valide as otimizações realizadas no site."
     },
     {
         question: "Qual a diferença entre os planos START, PLUS e PRO?",
