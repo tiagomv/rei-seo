@@ -12,9 +12,9 @@ const Results: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mb-4">
                 Prova Real
               </h2>
-              <p className="text-slate-600 max-w-2xl mx-auto">
-                Capturas de tela autênticas mostrando o crescimento exponencial de tráfego orgânico em um projeto real.
-              </p>
+               <p className="text-slate-600 max-w-2xl mx-auto">
+                 Capturas reais mostrando como um cliente nosso cresceu mês a mês
+               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -33,11 +33,11 @@ const Results: React.FC = () => {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <div className="text-center space-y-2">
-                    <p className="text-sm text-slate-500 font-medium">Novembro 2024</p>
-                    <p className="text-4xl font-bold text-secondary">327</p>
-                    <p className="text-slate-600">visitas orgânicas</p>
-                  </div>
+                   <div className="text-center space-y-2">
+                     <p className="text-sm text-slate-500 font-medium">Novembro 2024</p>
+                     <p className="text-4xl font-bold text-secondary">327</p>
+                     <p className="text-slate-600">visitantes por mês</p>
+                   </div>
                 </div>
               </div>
 
@@ -56,14 +56,14 @@ const Results: React.FC = () => {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <div className="text-center space-y-2">
-                    <p className="text-sm text-primary font-medium">Abril 2025</p>
-                    <p className="text-4xl font-bold text-primary">11.883</p>
-                    <p className="text-slate-600">visitas orgânicas</p>
-                    <div className="mt-4 pt-4 border-t border-primary/20">
-                      <p className="text-lg font-bold text-primary">+3.533% de crescimento</p>
-                    </div>
-                  </div>
+                   <div className="text-center space-y-2">
+                     <p className="text-sm text-primary font-medium">Abril 2025</p>
+                     <p className="text-4xl font-bold text-primary">11.883</p>
+                     <p className="text-slate-600">visitantes por mês</p>
+                     <div className="mt-4 pt-4 border-t border-primary/20">
+                       <p className="text-lg font-bold text-primary">+3.533% de crescimento</p>
+                     </div>
+                   </div>
                 </div>
               </div>
             </div>
@@ -71,11 +71,11 @@ const Results: React.FC = () => {
             {/* Summary Stats */}
             <div className="mt-12 text-center">
               <div className="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-primary/5 px-8 py-4 rounded-full border border-primary/20">
-                <span className="text-slate-600">De</span>
-                <span className="font-bold text-2xl text-secondary">327</span>
-                <span className="text-primary text-2xl">→</span>
-                <span className="font-bold text-2xl text-primary">11.883</span>
-                <span className="text-slate-600">visitas em 5 meses</span>
+                 <span className="text-slate-600">De</span>
+                 <span className="font-bold text-2xl text-secondary">327</span>
+                 <span className="text-primary text-2xl">→</span>
+                 <span className="font-bold text-2xl text-primary">11.883</span>
+                 <span className="text-slate-600">visitantes em 5 meses</span>
               </div>
             </div>
           </div>

@@ -7,9 +7,9 @@ const Stats: React.FC = () => {
   const yearsOfExperience = currentYear - 2017;
 
   const stats = [
-    { label: "Atuando com desenvolvimento web", end: yearsOfExperience, prefix: "+", suffix: " anos", disableFormatting: true },
-    { label: "Linhas de código otimizadas", end: 15000, prefix: "+", suffix: "" },
-    { label: "Média de ganho em velocidade mobile", end: 300, prefix: "+", suffix: "%" },
+    { label: "Anos ajudando negócios a crescer online", end: yearsOfExperience, prefix: "+", suffix: "", disableFormatting: true },
+    { label: "Clientes que já conquistamos", end: 150, prefix: "+", suffix: "" },
+    { label: "Crescimento médio dos clientes", end: 300, prefix: "+", suffix: "%" },
   ];
 
   return (

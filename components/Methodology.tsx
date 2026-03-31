@@ -6,23 +6,23 @@ const Methodology: React.FC = () => {
     const methodologyPoints = [
         {
             icon: CheckCircle2,
-            title: "Base Técnica Sólida",
-            description: "Otimização de Core Web Vitals, dados estruturados e arquitetura do site para garantir que o Google consiga rastrear e indexar corretamente todas as páginas."
+            title: "Site Rápido e Bem Organizado",
+            description: "Aceleramos seu site, arrumamos tudo que tá errado tecnicamente e deixamos organizado pra Google entender perfeitamente e colocar nos resultados."
         },
         {
             icon: TrendingUp,
-            title: "Estratégia de Conteúdo",
-            description: "Pesquisa profunda de palavras-chave e criação de conteúdo de qualidade que responde exatamente o que seu público está buscando."
+            title: "Conteúdo que Funciona",
+            description: "Descrobimos exatamente o que seu cliente está procurando e criamos artigos, guias e materiais que respondem essas dúvidas e trazem visitantes."
         },
         {
             icon: Link2,
-            title: "Construção de Autoridade",
-            description: "Backlinks de qualidade de sites relevantes que aumentam a confiança do Google no seu domínio e melhoram seu posicionamento."
+            title: "Sua Marca Crescendo em Autoridade",
+            description: "Conseguimos menções do seu site em outros lugares importantes da internet. Isso faz o Google confiar mais em você e colocar você mais acima nos resultados."
         },
         {
             icon: BarChart3,
-            title: "Otimização Contínua",
-            description: "Monitoramento constante de métricas, ajustes baseados em dados reais e adaptação às mudanças do algoritmo do Google."
+            title: "Acompanhamento e Melhorias",
+            description: "Não deixamos quieto. Toda semana checamos o que tá funcionando, o que não tá, e fazemos ajustes pra crescer cada vez mais."
         }
     ];
 
@@ -35,8 +35,8 @@ const Methodology: React.FC = () => {
                             Por Que Funciona
                         </h2>
                         <p className="text-slate-600 max-w-2xl mx-auto text-lg">
-                            Nossa metodologia combina técnica, estratégia e consistência para resultados sustentáveis
-                        </p>
+                            Como a gente faz você crescer online de forma consistente
+                         </p>
                     </FadeIn>
                 </div>
 
@@ -69,7 +69,7 @@ const Methodology: React.FC = () => {
                     <div className="mt-12 max-w-3xl mx-auto">
                         <div className="bg-gradient-to-r from-primary/5 to-primary/10 rounded-2xl p-8 border border-primary/20">
                             <p className="text-center text-slate-700 leading-relaxed">
-                                <span className="font-bold text-secondary">Não fazemos promessas vazias.</span> Nosso trabalho é baseado em técnicas comprovadas, transparência total e foco em resultados reais.
+                                <span className="font-bold text-secondary">Sem conversinha de vendedor.</span> A gente faz o trabalho honesto, mostra tudo transparente, e você vê crescendo pro seu bolso.
                             </p>
                         </div>
                     </div>

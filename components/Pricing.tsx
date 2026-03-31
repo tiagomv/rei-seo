@@ -7,15 +7,15 @@ const plans: PlanItem[] = [
   {
     name: "START",
     price: "800",
-    period: "Único",
-    focus: "Faxina Técnica e WPO",
+    period: "Uma só vez",
+    focus: "Consertando o site",
     icon: Zap,
     features: [
-      "Auditoria técnica completa",
-      "Otimização de Core Web Vitals",
-      "Correção de erros críticos",
-      "Otimização de títulos e meta tags",
-      "Relatório detalhado de melhorias"
+      "Análise completa do seu site",
+      "Acelerar o carregamento",
+      "Corrigir problemas que assustam Google",
+      "Melhorar títulos e descrições",
+      "Relatório com tudo que foi feito"
     ],
     checkoutUrl: "https://mpago.li/1furv52",
   },
@@ -23,16 +23,16 @@ const plans: PlanItem[] = [
     name: "PLUS",
     price: "1.500",
     period: "/mês",
-    focus: "Tração",
+    focus: "Crescendo mês a mês",
     icon: Rocket,
     isPopular: true,
     features: [
-      "Tudo do plano START (mês 1)",
-      "Manutenção técnica contínua",
-      "2 posts otimizados por mês",
-      "3 backlinks de qualidade por mês",
-      "Monitoramento de performance",
-      "Relatório mensal detalhado"
+      "Tudo do START (no primeiro mês)",
+      "Manutenção constante do site",
+      "2 artigos novos otimizados por mês",
+      "3 menções do seu site em lugares importantes",
+      "Acompanhamento de como tá crescendo",
+      "Relatório mensal super claro"
     ],
     checkoutUrl: "https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=3432abd8884f41e7a628fc96254415df",
   },
@@ -40,15 +40,15 @@ const plans: PlanItem[] = [
     name: "PRO",
     price: "2.500",
     period: "/mês",
-    focus: "Liderança",
+    focus: "Dominando seu mercado",
     icon: Crown,
     features: [
-      "Tudo do plano PLUS",
-      "5 posts otimizados por mês",
-      "7 backlinks premium por mês",
-      "Estratégia de conteúdo avançada",
-      "Consultoria mensal dedicada (1h)",
-      "Análise de concorrência trimestral"
+      "Tudo do PLUS",
+      "5 artigos novos otimizados por mês",
+      "7 menções em sites de alta autoridade",
+      "Planejamento de conteúdo avançado",
+      "1 hora de consultoria direta comigo por mês",
+      "Análise dos concorrentes a cada 3 meses"
     ],
     checkoutUrl: "https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=126f2abbf67843098ccda260302069a6",
   }

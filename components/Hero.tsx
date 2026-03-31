@@ -14,27 +14,27 @@ const Hero: React.FC = () => {
 
           <div className="lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
             <FadeIn delay={0}>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-xs font-bold uppercase tracking-wider mb-6">
-                <TrendingUp size={14} />
-                Agência de Performance
-              </div>
+               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-xs font-bold uppercase tracking-wider mb-6">
+                 <TrendingUp size={14} />
+                 Especialistas em Crescimento Online
+               </div>
             </FadeIn>
 
             <FadeIn delay={100}>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-secondary leading-tight mb-6">
-                Domine o Google com a <span className="text-primary relative inline-block">
-                  Rei SEO
-                  <svg className="absolute w-full h-3 -bottom-1 left-0 text-blue-200 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
-                    <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
-                  </svg>
-                </span>
-              </h1>
+               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-secondary leading-tight mb-6">
+                 Apareça na Frente dos Seus Clientes com a <span className="text-primary relative inline-block">
+                   Rei SEO
+                   <svg className="absolute w-full h-3 -bottom-1 left-0 text-blue-200 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
+                     <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
+                   </svg>
+                 </span>
+               </h1>
             </FadeIn>
 
             <FadeIn delay={200}>
-              <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
-                Transforme a busca orgânica em seu melhor canal de aquisição e vendas. Estratégias de SEO técnico e de conteúdo que realmente funcionam.
-              </p>
+               <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
+                 Quando alguém procura pelo seu negócio no Google, você aparece. Sem pagar por anúncio. Simples assim.
+               </p>
             </FadeIn>
 
             <FadeIn delay={300}>
@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
                   href="#planos"
                   className="inline-flex justify-center items-center px-8 py-4 bg-primary hover:bg-primary-dark text-white font-semibold rounded-xl transition-all shadow-lg hover:shadow-blue-500/30 hover:-translate-y-1 gap-2 group"
                 >
-                  Quero dominar o Google
+                   Ver planos disponíveis
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
@@ -98,10 +98,10 @@ const Hero: React.FC = () => {
                   <div className="bg-green-100 p-2 rounded-full">
                     <TrendingUp className="text-green-600 w-6 h-6" />
                   </div>
-                  <div>
-                    <p className="text-xs text-slate-500 font-medium">Tráfego Orgânico</p>
-                    <p className="text-lg font-bold text-secondary">24.5k</p>
-                  </div>
+                   <div>
+                     <p className="text-xs text-slate-500 font-medium">Visitantes Mensais</p>
+                     <p className="text-lg font-bold text-secondary">24.5k</p>
+                   </div>
                 </div>
               </div>
 

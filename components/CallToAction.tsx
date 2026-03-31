@@ -14,19 +14,19 @@ const CallToAction: React.FC = () => {
 
       <div className="container mx-auto px-6 relative z-10 text-center">
         <FadeIn>
-          <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6">
-            Pronto para dominar o Google?
-          </h2>
-          <p className="text-blue-100 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            Fale com nossos especialistas e descubra como o SEO pode transformar seu negócio hoje mesmo.
-          </p>
+           <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6">
+             Pronto para aparecer na frente dos seus clientes?
+           </h2>
+           <p className="text-blue-100 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+             Fale com nossos especialistas e descubra como você pode conquistar mais clientes sem pagar anúncio.
+           </p>
 
-          <a
-            href="#planos"
-            className="inline-flex items-center gap-2 bg-white text-primary px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1"
-          >
-            Quero dominar o Google →
-          </a>
+           <a
+             href="#planos"
+             className="inline-flex items-center gap-2 bg-white text-primary px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1"
+           >
+             Vamos conversar →
+           </a>
         </FadeIn>
       </div>
     </section>

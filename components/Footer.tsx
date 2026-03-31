@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
               <span className="text-xl font-heading font-bold text-white">Rei SEO</span>
             </div>
             <p className="text-sm text-slate-400 max-w-xs">
-              Especialistas em SEO técnico e estratégico. Transformamos códigos e conteúdos em resultados de negócio.
+              A gente ajuda empresas a conquistar mais clientes de forma consistente, sem depender de anúncio pago.
             </p>
           </div>
 

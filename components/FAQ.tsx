@@ -9,36 +9,36 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
     {
-        question: "Quanto tempo leva para ver resultados com SEO?",
-        answer: "Os primeiros resultados de SEO costumam aparecer entre 60 e 90 dias, com aumento de impressões, cliques e melhora gradual no posicionamento. Esse prazo é necessário para que o Google rastreie, indexe e valide as otimizações realizadas no site."
+        question: "Quanto tempo até eu ver resultados?",
+        answer: "Normalmente, começamos a ver visitantes novos chegando em 2 a 3 meses. Mas o segredo é que quanto mais você espera, mais crescimento você ganha. Recomendamos mínimo 6 meses pra ver resultado de verdade."
     },
     {
-        question: "Qual a diferença entre os planos START, PLUS e PRO?",
-        answer: "O plano START é ideal para quem precisa de uma otimização técnica inicial (pagamento único). O PLUS é para quem quer crescimento contínuo com conteúdo e backlinks mensais. O PRO oferece volume maior de conteúdo, backlinks premium e consultoria dedicada para dominar seu nicho."
+        question: "Qual é a diferença entre os planos?",
+        answer: "O START é pra quem quer consertar o site (uma só vez). O PLUS é pra quem quer crescimento mês a mês (melhor custo). O PRO é pro negócio que quer ficar à frente da concorrência, com tudo incluído."
     },
     {
-        question: "Vocês trabalham com qualquer tipo de negócio?",
-        answer: "Sim! Atendemos desde e-commerces, blogs, sites institucionais até profissionais liberais e prestadores de serviço. Cada estratégia é personalizada de acordo com o nicho e objetivos do cliente."
+        question: "Vocês trabalham com meu tipo de negócio?",
+        answer: "Sim! Independente se você vende online, presta serviço, tem consultório, ou vende localmente. A gente adapta a estratégia pro seu negócio específico e pro que faz você ganhar dinheiro."
     },
     {
-        question: "O que são backlinks e por que são importantes?",
-        answer: "Backlinks são links de outros sites apontando para o seu. Eles funcionam como 'votos de confiança' para o Google, aumentando a autoridade do seu domínio. Quanto mais backlinks de qualidade você tiver, melhor será seu ranqueamento."
+        question: "Como o Google fica sabendo que meu site é bom?",
+        answer: "Quando sites de autoridade mencionam ou indicam você, o Google entende que você é confiável. É como uma recomendação. Quanto mais recomendações você tem, mais o Google confia em você e melhor você fica nos resultados."
     },
     {
-        question: "Posso cancelar o plano a qualquer momento?",
-        answer: "Sim, nossos planos mensais (PLUS e PRO) não têm fidelidade. Você pode cancelar quando quiser. Recomendamos no mínimo 6 meses para resultados consistentes, mas a decisão é sempre sua."
+        question: "Posso cancelar quando quiser?",
+        answer: "Sim! Os planos mensais não têm contrato de fidelidade. Mas aviso: nos primeiros 3 meses os resultados são pequenos. Quem cancela cedo perde o potencial de ganhar muito mais depois."
     },
     {
-        question: "Vocês garantem a primeira posição no Google?",
-        answer: "Nenhuma agência séria pode garantir posições específicas, pois o Google muda seus algoritmos constantemente. O que garantimos é trabalho técnico de qualidade, transparência nos relatórios e estratégias comprovadas que aumentam suas chances de ranquear bem."
+        question: "Vocês garantem que vou ficar em primeiro lugar?",
+        answer: "Ninguém pode garantir isso porque o Google muda o jogo constantemente. O que a gente garante é fazer o trabalho certo, mostrar tudo de forma clara e honesta, e usar estratégias que funcionam e já provaram resultado."
     },
     {
-        question: "Como funciona o processo de trabalho?",
-        answer: "Após a contratação, fazemos uma auditoria completa, definimos as palavras-chave estratégicas, implementamos as otimizações técnicas e criamos um cronograma de conteúdo e link building. Você recebe relatórios mensais com todas as métricas e evoluções."
+        question: "Como vocês trabalham comigo?",
+        answer: "Primeiro a gente analisa seu site por inteiro. Depois decidimos as melhores palavras-chave pra você. Implementamos as melhorias, criamos conteúdo e construímos aquela autoridade que falei. Todo mês você recebe relatório simples pra acompanhar."
     },
     {
-        question: "Preciso ter conhecimento técnico para contratar?",
-        answer: "Não! Cuidamos de tudo para você. Explicamos cada etapa de forma clara e você acompanha os resultados através de relatórios simples e objetivos. Nosso trabalho é fazer seu site crescer enquanto você foca no seu negócio."
+        question: "Preciso saber de tecnologia pra isso?",
+        answer: "Não! A gente faz tudo. Você só precisa entender os resultados (mais visitantes, mais vendas). Explicamos tudo de forma simples e você acompanha pelo relatório mensal. Seu trabalho é focar no seu negócio."
     }
 ];
 
@@ -58,8 +58,8 @@ const FAQ: React.FC = () => {
                             Perguntas Frequentes
                         </h2>
                         <p className="text-slate-600 max-w-2xl mx-auto">
-                            Tire suas dúvidas sobre SEO e nossos serviços
-                        </p>
+                             Resolvemos as dúvidas mais comuns de quem está começando a crescer online
+                         </p>
                     </FadeIn>
                 </div>
 
