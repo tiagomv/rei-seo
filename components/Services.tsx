@@ -68,7 +68,7 @@ const Services: React.FC = () => {
                     NOVO
                   </span>
                 )}
-                
+
                 <div className="w-14 h-14 bg-slate-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300">
                   <service.icon className="w-7 h-7 text-primary group-hover:text-white transition-colors duration-300" />
                 </div>
@@ -76,16 +76,16 @@ const Services: React.FC = () => {
                 <h3 className="text-xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors">
                   {service.title}
                 </h3>
-                
-                <p className="text-slate-500 leading-relaxed mb-6 flex-grow">
-                   {service.description}
-                 </p>
 
-                 {service.benefit && (
-                   <p className="text-primary font-semibold text-sm mb-4 pb-4 border-b border-slate-100">
-                     ✨ {service.benefit}
-                   </p>
-                 )}
+                <p className="text-slate-500 leading-relaxed mb-6 flex-grow">
+                  {service.description}
+                </p>
+
+                {service.benefit && (
+                  <p className="text-primary font-semibold text-sm mb-4 pb-4 border-b border-slate-100">
+                    {service.benefit}
+                  </p>
+                )}
 
                 <a href="#contato" className="inline-flex items-center text-primary font-semibold text-sm group-hover:gap-2 transition-all">
                   Saiba Mais
@@ -101,3 +101,5 @@ const Services: React.FC = () => {
 };
 
 export default Services;
+
+//teste
