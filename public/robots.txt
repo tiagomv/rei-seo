@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rei-seo-pro.vercel.app/sitemap.xml
+
+# Crawl-delay para bots mais agressivos
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Bloquear apenas arquivos desnecessários
+Disallow: /api/
+Disallow: /*.json$
